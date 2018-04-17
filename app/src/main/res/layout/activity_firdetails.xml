@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_firdetail"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.hp.databasetutorial.Firdetails">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:text="FIR Details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/textView3"
+            android:textSize="20dp"
+            android:textStyle="normal|bold"
+            android:textColor="@color/colorPrimary" />
+
+
+        <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editText_victimname"
+        android:hint="VIctim Name"
+        android:layout_below="@+id/textView3"
+        android:layout_alignLeft="@+id/editText_crimedetails"
+        android:layout_alignStart="@+id/editText_crimedetails"
+        android:layout_marginTop="22dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editcrimetype"
+        android:hint="Crime Tpye(Ex: Robbery)"
+        android:layout_marginTop="22dp"
+        android:layout_below="@+id/editText_victimname"
+        android:layout_alignLeft="@+id/editText_victimname"
+        android:layout_alignStart="@+id/editText_victimname" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:id="@+id/editText_crimedetails"
+        android:hint="Crime Details"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/editcrimetype"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editText_place"
+        android:hint="Place"
+        android:layout_marginTop="19dp"
+        android:layout_below="@+id/editText_crimedetails"
+        android:layout_alignLeft="@+id/editText_crimedetails"
+        android:layout_alignStart="@+id/editText_crimedetails" />
+
+        <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/editText_witnessdetails"
+        android:hint="Witness Detail(if any)"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/editText_place"
+        android:layout_alignLeft="@+id/editText_place"
+        android:layout_alignStart="@+id/editText_place" />
+
+        <Button
+            android:text="Submit FIR"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnsubmitfir"
+            android:textColor="@android:color/background_light"
+            android:background="@color/colorPrimaryDark"
+            android:layout_marginBottom="0dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignRight="@+id/textView3"
+            android:layout_alignEnd="@+id/textView3" />
+
+    </LinearLayout>
+
+</ScrollView>

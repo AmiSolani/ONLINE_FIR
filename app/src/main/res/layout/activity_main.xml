@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_registration"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.hp.databasetutorial.MainActivity">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:layout_below="@+id/textView"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="51dp"
+            android:layout_marginStart="51dp"
+            android:layout_marginTop="14dp"
+            android:id="@+id/editText_name"
+            android:hint="Enter name" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:layout_below="@+id/editText_name"
+            android:layout_alignRight="@+id/editText_name"
+            android:layout_alignEnd="@+id/editText_name"
+            android:layout_marginTop="17dp"
+            android:id="@+id/editText_email"
+            android:hint="Enter valid email" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:layout_marginTop="32dp"
+            android:id="@+id/editText_cpwd"
+            android:hint="Enter confirm password"
+            android:layout_below="@+id/editText_pwd"
+            android:layout_alignLeft="@+id/editText_pwd"
+            android:layout_alignStart="@+id/editText_pwd" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/editText_pwd"
+            android:hint="Enter password"
+            android:layout_below="@+id/editText_number"
+            android:layout_alignLeft="@+id/editText_number"
+            android:layout_alignStart="@+id/editText_number"
+            android:layout_marginTop="30dp" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="phone"
+            android:ems="10"
+            android:layout_marginTop="21dp"
+            android:id="@+id/editText_number"
+            android:hint="Enter phone number"
+            android:layout_below="@+id/editText_email"
+            android:layout_alignLeft="@+id/editText_email"
+            android:layout_alignStart="@+id/editText_email" />
+
+        <TextView
+            android:text="Registration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView"
+            android:textStyle="normal|bold"
+            android:textSize="24sp"
+            android:textColor="@color/colorPrimary"
+            android:layout_alignParentTop="true"
+            android:layout_alignRight="@+id/editText_name"
+            android:layout_alignEnd="@+id/editText_name"
+            android:layout_marginRight="40dp"
+            android:layout_marginEnd="40dp" />
+
+        <Button
+            android:text="REGISTER"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:id="@+id/btnAdddata"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="@android:color/background_light"
+            android:layout_below="@+id/editText_cpwd"
+            android:layout_alignLeft="@+id/editText_cpwd"
+            android:layout_alignStart="@+id/editText_cpwd"
+            android:textStyle="normal|bold" />
+
+        <Button
+            android:text="Login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/btnAdddata"
+            android:layout_alignRight="@+id/editText_cpwd"
+            android:layout_alignEnd="@+id/editText_cpwd"
+            android:id="@+id/login"
+            android:background="@color/colorPrimaryDark"
+            android:textStyle="normal|bold"
+            android:textColor="@android:color/background_light" />
+        </RelativeLayout>
+</ScrollView>

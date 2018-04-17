@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="editText_name" type="id">1</item>
+    <item name="button_add" type="id">2</item>
+    <item name="button_viewAll" type="id">3</item>
+    <item name="button_update" type="id">4</item>
+    <item name="button_delete" type="id">5</item>
+    <item name="action_settings" type="id">7</item>
+</resources>

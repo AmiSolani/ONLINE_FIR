@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">ONLINE FIR</string>
+    <string name="title_activity_login">log in</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password (optional)</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="enter_your_contact_no">Enter your Contact no.</string>
+    <string name="regstration">Regstration</string>
+
+    <string-array name="crimes1">
+        <item>Robbery</item>
+        <item>Offence against the person</item>
+        <item>Violent offence</item>
+        <item>Sexual offence</item>
+        <item>Offence against property</item>
+        <item>Burglary</item>
+        <item>Auto Theft</item>
+        <item>Larceny</item>
+        <item>Street Crime</item>
+        <item>Political Crime</item>
+        <item>White-Collar Crime</item>
+    </string-array>
+</resources>
